@@ -35,21 +35,55 @@
   \item 熟悉Unreal开发，掌握常用模块，如关卡/AI/动画/Sequence等
   \item 熟悉Unity开发，掌握常用功能，如资源加载，AB包等
   \item 熟悉常用的设计模式，如单例模式/工厂模式/策略模式等
-  \item 熟悉AICode，熟练使用Trae/Gemini/Chatgpt等等AI工具辅助编程
+  \item 熟悉AICoding，熟练使用Trae/Gemini/Chatgpt等等AI工具辅助编程
   \item 了解网络开发，如RPC，帧同步/状态同步等
   \item 了解操作系统相关知识，如进程/线程调度等等
   \item 了解计算机网络相关知识，如TCP/IP，UDP等等常用协议
 \end{itemize}
 
 \section{\faUsers\ 工作经历}
-\datedsubsection{\textbf{逆城科技} 杭州}{2025年6月 -- 至今}
-\role{游戏客户端开发}{}
-xxx后端开发
+\datedsubsection{\textbf{逆城（杭州）科技}}{2025年6月 -- 至今}
+\role{《逆行计划:共生者》动作单机 - 游戏客户端开发 }{}
+参与动画系统开发
 \begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
+  \item 整体架构共用一个Template，下面各个子类初始化通过配置的AnimLayer动态Link，
+  比如不同的怪物支持不同的Locomotion逻辑，后期实现更加灵活
+  \item 
 \end{itemize}
+\begin{onehalfspacing}
+参与任务系统QuestGraph开发
+\begin{itemize}
+  \item 为了让策划更方便的配置关卡流程，包装了一层C++的节点暴露给BP使用，在Python层实现具体逻辑，
+  最终提供给策划是一套完整的流程节点，比如Wait，
+\end{itemize}
+\end{onehalfspacing}
+\begin{onehalfspacing}
+负责玩家表演
+\begin{itemize}
+  \item 为了让策划更方便的配置关卡流程，包装了一层C++的节点暴露给BP使用，在Python层实现具体逻辑，
+  最终提供给策划是一套完整的流程节点，比如Wait，
+\end{itemize}
+\end{onehalfspacing}
+\begin{onehalfspacing}
+负责交互物件
+\begin{itemize}
+  \item 为了让策划更方便的配置关卡流程，包装了一层C++的节点暴露给BP使用，在Python层实现具体逻辑，
+  最终提供给策划是一套完整的流程节点，比如Wait，
+\end{itemize}
+\end{onehalfspacing}
+\begin{onehalfspacing}
+参与UnrealPython插件二次开发
+\begin{itemize}
+  \item 重构Python的Bind逻辑，
+\end{itemize}
+\end{onehalfspacing}
+\begin{onehalfspacing}
+参与移植PS5
+\begin{itemize}
+  \item 排查并解决部分UE在PS5上不兼容的问题，比如存档失效（路径不匹配），Sequence选择Audio轴会导致
+\end{itemize}
+\end{onehalfspacing}
+
 
 \datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
 \role{Golang, Linux}{个人项目，和富帅糕合作开发}
